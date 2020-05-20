@@ -1,7 +1,7 @@
 # Anti-testportal
 Minimalistic (very) Chrome extension - bypass for blur check and time limit on testportal.pl.
 
-🈹🐀💥 Changing pages will not display a warning about leaving the page. After the time for answering the question (or completing the test) has elapsed, nothing will happen - you can still answer the questions!.
+🈹🐀💥 Changing pages will not display a warning about leaving the page. After the time for answering the question (or completing the test) has elapsed, nothing will happen - you can still answer the questions!
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
