@@ -1,7 +1,7 @@
 # Anti-testportal
 Minimalistic (very) Chrome extension - bypass for blur check and time limit on testportal.pl.
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)]
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 ## Usage
 1. **Download this repo as a ZIP file** (`Green button *Clone or download* -> Download ZIP`).
