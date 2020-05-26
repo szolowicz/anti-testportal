@@ -1,4 +1,5 @@
 # Anti-testportal
+
 Minimalistic (very) Chrome extension - bypass for blur check and time limit on testportal.pl.
 
 🈹🐀💥 Changing pages will not display a warning about leaving the page. After the time for answering the question (or completing the test) has elapsed, nothing will happen - you can still answer the questions!
@@ -6,6 +7,7 @@ Minimalistic (very) Chrome extension - bypass for blur check and time limit on t
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 ## Usage
+
 1. **Download this repo as a ZIP file** (`Green button *Clone or download* -> Download ZIP`).
 2. **Unpack** ZIP file.
 3. **Go to the extensions page** (`chrome://extensions or Chrome menu -> More tools -> Extensions`).
@@ -14,9 +16,11 @@ Minimalistic (very) Chrome extension - bypass for blur check and time limit on t
 6. **Indicate the folder** you unpacked.
 
 ## Contributing
+
 Pull requests are welcome.
 
 ## Motivation
+
 I got few negative grades at school because of this website, because I am too busy to learn :]
 
-also these are just two lines of code..
+also these are just seven lines of code..
