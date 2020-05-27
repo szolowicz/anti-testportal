@@ -7,13 +7,13 @@ const securityBypass = document.createTextNode(`
     // Don't send number of page changes to test creator.
     updateCt = () => {};
 
+    // If we changed page, remove blurs count.
+    window.onblur = function() {
+        eraseCookie('blurs');
+    }
+
     // If time has elapsed, don't do anything.
     onCountdownFinished = () => {};
-
-    // Protection against the test, which has a specified time to solve it (not time for question)
-    setInterval(function() {
-        startingRemainingTimeInMs += 10000;
-    }, 10000);
 `);
 
 antiTestportalScript.appendChild(securityBypass);
