@@ -3,6 +3,8 @@ const securityBypass = document.createTextNode(`
     // Don't display warning about leaving the page.
     window['honestRespondentBlockade_popup'] = () => {};
     window.honestRespondentBlockade_popup.open = () => {};
+    window['honestRespondentWarning_popup'] = () => {};
+    window.honestRespondentWarning_popup.open = () => {};
 
     // Don't send number of page changes to test creator.
     updateCt = () => {};
