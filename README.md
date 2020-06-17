@@ -8,6 +8,9 @@ Minimalistic (very) Chrome extension - bypass for blur check and time limit on t
 
 ## Usage
 
+[Unofficial extension in Chrome web store](https://chrome.google.com/webstore/detail/anti-testportal/dpgfbfopkfdfmlfdpmoanamopdnibhkl)
+(thanks to szoppracz07.ovh)
+
 1. **Download this repo as a ZIP file** (`Green button *Clone or download* -> Download ZIP`).
 2. **Unpack** ZIP file.
 3. **Go to the extensions page** (`chrome://extensions or Chrome menu -> More tools -> Extensions`).
