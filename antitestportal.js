@@ -10,7 +10,7 @@ const securityBypass = document.createTextNode(`
   updateCt = () => {};
 
   // If we changed page, remove blurs count.
-  window.onblur = function() {
+  window.onblur = () => {
     eraseCookie('blurs');
   }
 
