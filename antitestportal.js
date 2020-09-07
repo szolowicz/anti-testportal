@@ -7,10 +7,8 @@ const securityBypass = document.createTextNode(`
   window.honestRespondentWarning_popup.open = () => {};
 
   // Don't send number of page changes to test creator.
-  updateCt = () => {};
-
-  // If we changed page, remove blurs count.
-  window.onblur = () => eraseCookie('blurs');
+  // lmao, using jquery in 2020, gj boys!
+  $(window).blur(() => eraseCookie('blurs'));
 
   // If time has elapsed, don't do anything.
   onCountdownFinished = () => {};
