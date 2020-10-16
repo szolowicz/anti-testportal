@@ -1,0 +1,40 @@
+{
+  "name": "anti-testportal",
+  "version": "3.0.0",
+  "description": "Bypass for blur check and time limit on testportal.pl(net)",
+  "main": "src/main.js",
+  "scripts": {
+    "build:dev": "webpack --config=webpack.dev.conf.js",
+    "build": "webpack --config=webpack.prod.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lumm1t/anti-testportal.git"
+  },
+  "keywords": [
+    "testportal",
+    "cheat",
+    "hack",
+    "time",
+    "page",
+    "changing"
+  ],
+  "author": "Lumm1t",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lumm1t/anti-testportal/issues"
+  },
+  "homepage": "https://github.com/Lumm1t/anti-testportal#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "@types/webpack-env": "^1.15.3",
+    "babel-loader": "^8.1.0",
+    "ts-loader": "^8.0.5",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {}
+}
