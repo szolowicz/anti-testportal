@@ -1,15 +1,16 @@
 {
   "name": "Anti Testportal",
   "description": "Bypass for blur check and time limit on testportal.pl",
-  "version": "2.6",
+  "version": "3.0.0",
   "manifest_version": 2,
   "content_scripts": [
     {
       "matches": ["https://*.testportal.pl/*", "https://*.testportal.net/*"],
-      "js": ["antitestportal.js"],
+      "js": ["script.js"],
       "all_frames": true
     }
   ],
+  "web_accessible_resources": ["bypass.js"],
   "icons": {
     "16": "icons/antitestportal16.png",
     "32": "icons/antitestportal32.png",

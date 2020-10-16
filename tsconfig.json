@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "removeComments": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "target": "es5",
+    "typeRoots": ["node_modules/@types"]
+  }
+}
