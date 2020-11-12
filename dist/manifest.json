@@ -5,7 +5,12 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["https://*.testportal.pl/*", "https://*.testportal.net/*"],
+      "matches": [
+        "https://*.testportal.pl/*",
+        "https://*.testportal.net/*",
+        "https://teams.microsoft.com/*",
+        "https://*.teams.microsoft.com/*"
+      ],
       "js": ["script.js"],
       "all_frames": true
     }
