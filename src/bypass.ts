@@ -1,6 +1,6 @@
 declare const Lumm1t: undefined;
 
-export default () => {
+export default (): void => {
   // Remove ability to read focus value.
   Object.defineProperty(document, 'hasFocus', {
     get: (): ReferenceError => Lumm1t
