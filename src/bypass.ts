@@ -1,4 +1,4 @@
-declare let Lumm1t: undefined, startTime: number;
+declare const Lumm1t: undefined;
 
 export default () => {
   // Remove ability to read focus value.
