@@ -9,6 +9,8 @@ This feature currently doesn't work
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
 
+Join our Discord! https://discord.gg/HPecVXeQrF
+
 ## Usage
 
 [Unofficial extension in Chrome web store](https://chrome.google.com/webstore/detail/anti-testportal/dpgfbfopkfdfmlfdpmoanamopdnibhkl)
