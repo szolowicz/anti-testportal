@@ -2,7 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/main.ts',
+  entry: {
+    'main': './src/main.ts',
+    'popup/overlay': './src/popup/overlay.ts',
+  },
   module: {
     rules: [
       {
@@ -23,6 +26,6 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'script.js'
+    filename: '[name].js'
   }
 };

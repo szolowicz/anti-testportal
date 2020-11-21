@@ -1,8 +1,7 @@
 {
   "name": "anti-testportal",
-  "version": "3.0.1",
-  "description": "Bypass for blur check and time limit on testportal.pl(net)",
-  "main": "src/main.js",
+  "version": "4.0.0",
+  "description": "Bypass for blur check on testportal.pl(net)",
   "scripts": {
     "build:dev": "webpack --config=webpack.dev.conf.js",
     "build": "webpack --config=webpack.prod.conf.js"
@@ -20,7 +19,7 @@
     "changing"
   ],
   "author": "Lumm1t",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Lumm1t/anti-testportal/issues"
   },
@@ -29,12 +28,13 @@
     "@babel/core": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-typescript": "^7.12.1",
+    "@types/chrome": "^0.0.126",
     "@types/webpack-env": "^1.15.3",
     "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "ts-loader": "^8.0.5",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.2.3"
-  },
-  "dependencies": {}
+  }
 }
