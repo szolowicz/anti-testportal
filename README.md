@@ -4,12 +4,11 @@ Minimalistic Chrome extension - bypass for blur check on testportal.pl(net).
 
 🈹🐀💥 Changing pages will not display a warning about leaving the page.
 
-❌ ~~After the time for answering the question (or completing the test) has elapsed, nothing will happen - you can still answer the questions!~~
-This feature currently doesn't work
-
 [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
 
 Join our Discord! https://discord.gg/HPecVXeQrF
+
+[<img width="250" src="https://i.imgur.com/ZeD4O9a.png" alt="anti-testportal">](https://i.imgur.com/ZeD4O9a.png)
 
 ## Usage
 
