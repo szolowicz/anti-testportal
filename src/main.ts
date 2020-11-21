@@ -1,6 +1,6 @@
 import Bypass from './bypass'
 
-class Solver {
+class Main {
   protected readonly bypass = new Bypass()
 
   constructor () {
@@ -29,4 +29,4 @@ class Solver {
   }
 }
 
-export default new Solver()
+export default new Main()
