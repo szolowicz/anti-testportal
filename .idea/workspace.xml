@@ -20,27 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d14a2713-d2bc-4a2e-b2f3-486211f2d1ee" name="Default Changelist" comment="docs(readme): discord link">
-      <change afterPath="$PROJECT_DIR$/.idea/anti-testportal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/popup/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/popup/overlay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/popup/overlay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/popup/overlay.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popup/overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup/overlay.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bypass.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bypass.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +58,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -99,7 +94,10 @@
       <workItem from="1605914673888" duration="9319000" />
       <workItem from="1605924003047" duration="171000" />
       <workItem from="1605924769689" duration="415000" />
-      <workItem from="1605925199983" duration="1737000" />
+      <workItem from="1605925199983" duration="1975000" />
+      <workItem from="1605927280371" duration="10000" />
+      <workItem from="1605948080056" duration="10000" />
+      <workItem from="1605955326354" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="docs(readme): discord link">
       <created>1605913199441</created>
@@ -132,18 +130,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="docs(readme): discord link" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="442" width="814" height="229" key="#Stylelint" timestamp="1605955438294">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="584" y="442" width="814" height="229" key="#Stylelint/72.27.1848.1053@72.27.1848.1053" timestamp="1605955438294" />
     <state x="785" y="334" width="777" height="459" key="EditFileWatcherDialog" timestamp="1605924957808">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="785" y="334" width="777" height="459" key="EditFileWatcherDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605924957808" />
-    <state x="522" y="188" width="1313" height="737" key="SettingsEditor" timestamp="1605925334285">
+    <state x="522" y="188" width="1313" height="737" key="SettingsEditor" timestamp="1605955722082">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="522" y="188" width="1313" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605925334285" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605913208511">
+    <state x="522" y="188" width="1313" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605955722082" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605927108703">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605913208511" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605927108703" />
     <state x="755" y="468" width="481" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605913167644">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
