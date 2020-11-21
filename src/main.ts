@@ -20,10 +20,13 @@ class Main {
   }
 
   private createScript (): void {
+    const bypassFunction = this.bypass.createBypass.toString();
+    const bypass = bypassFunction.slice(bypassFunction.indexOf('{') + 1, bypassFunction.lastIndexOf('}'));
+
     const script = document.createElement('script') as HTMLScriptElement;
 
     script.setAttribute('type', 'text/javascript');
-    script.innerHTML = `(${this.bypass.createBypass})();`;
+    script.innerHTML = bypass;
 
     document.body.appendChild<HTMLScriptElement>(script);
   }
