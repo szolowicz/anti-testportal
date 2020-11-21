@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d14a2713-d2bc-4a2e-b2f3-486211f2d1ee" name="Default Changelist" comment="docs(readme): discord link">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popup/overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/popup/overlay.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bypass.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bypass.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popup/overlay.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/overlay.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +74,8 @@
     <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -97,7 +101,7 @@
       <workItem from="1605925199983" duration="1975000" />
       <workItem from="1605927280371" duration="10000" />
       <workItem from="1605948080056" duration="10000" />
-      <workItem from="1605955326354" duration="407000" />
+      <workItem from="1605955326354" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="docs(readme): discord link">
       <created>1605913199441</created>
@@ -130,6 +134,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="docs(readme): discord link" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="830" y="445" width="321" height="231" key="#ESLint" timestamp="1605956319135">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="830" y="445" width="321" height="231" key="#ESLint/72.27.1848.1053@72.27.1848.1053" timestamp="1605956319135" />
     <state x="584" y="442" width="814" height="229" key="#Stylelint" timestamp="1605955438294">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -138,14 +146,14 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="785" y="334" width="777" height="459" key="EditFileWatcherDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605924957808" />
-    <state x="522" y="188" width="1313" height="737" key="SettingsEditor" timestamp="1605955722082">
+    <state x="522" y="188" width="1313" height="737" key="SettingsEditor" timestamp="1605956554093">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="522" y="188" width="1313" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605955722082" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605927108703">
+    <state x="522" y="188" width="1313" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605956554093" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605955837804">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605927108703" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605955837804" />
     <state x="755" y="468" width="481" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605913167644">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
