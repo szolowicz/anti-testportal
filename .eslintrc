@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "overrides": [
+    {
+      "files": [ "src/**/*.ts" ],
+      "rules": {
+        "no-var": "error",
+        "prefer-const": "warn",
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "indent": ["warn", 2],
+        "no-multi-spaces": "warn",
+        "space-in-parens": "warn",
+        "no-multiple-empty-lines": "warn"
+      }
+    }
+  ]
+}

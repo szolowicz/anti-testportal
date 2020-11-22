@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d14a2713-d2bc-4a2e-b2f3-486211f2d1ee" name="Default Changelist" comment="docs(readme): discord link">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +74,10 @@
     <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettier.import.notification.dismissed" value="true" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -101,6 +108,7 @@
       <workItem from="1606063640895" duration="267000" />
       <workItem from="1606064243375" duration="627000" />
       <workItem from="1606064878691" duration="212000" />
+      <workItem from="1606068069227" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="docs(readme): discord link">
       <created>1605913199441</created>
@@ -145,10 +153,26 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="785" y="334" width="777" height="459" key="EditFileWatcherDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605924957808" />
-    <state x="475" y="225" width="1313" height="737" key="SettingsEditor" timestamp="1606064885249">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1606068532668">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="475" y="225" width="1313" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606064885249" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1606068532668" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1606068532668">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1606068532668" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1606068532668">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1606068532668" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1606068532668">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1606068532668" />
+    <state x="475" y="225" width="1313" height="737" key="SettingsEditor" timestamp="1606068467770">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="475" y="225" width="1313" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606068467770" />
     <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605963153008">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
