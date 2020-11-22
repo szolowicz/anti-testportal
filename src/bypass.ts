@@ -1,7 +1,7 @@
 declare const Lumm1t: undefined;
 
 export default class Bypass {
-  constructor () {
+  constructor() {
     try {
       this.getFunctions();
     } catch (err) {
@@ -10,13 +10,13 @@ export default class Bypass {
     }
   }
 
-  public getFunctions (): string {
+  public getFunctions(): string {
     const antiBlur = this.antiBlur.toString();
 
     return antiBlur.slice(antiBlur.indexOf('{') + 1, antiBlur.lastIndexOf('}'));
   }
 
-  private antiBlur (): void {
+  private antiBlur(): void {
     // Remove ability to read focus value.
     Object.defineProperty(document, 'hasFocus', {
       get: (): ReferenceError => Lumm1t
