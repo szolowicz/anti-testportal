@@ -3,7 +3,7 @@ import Bypass from './bypass';
 class Main {
   protected readonly bypass = new Bypass();
 
-  constructor () {
+  constructor() {
     console.clear();
     console.log(
       '%canti-testportal by Lumm1t\n',
@@ -19,8 +19,8 @@ class Main {
     }
   }
 
-  private createScript (): void {
-    const script = document.createElement('script') as HTMLScriptElement;
+  private createScript(): void {
+    const script = document.createElement('script');
 
     script.setAttribute('type', 'text/javascript');
     script.innerHTML = this.bypass.getFunctions();
