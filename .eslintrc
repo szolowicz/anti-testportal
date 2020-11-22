@@ -30,5 +30,8 @@
         "no-multiple-empty-lines": "warn"
       }
     }
-  ]
+  ],
+  "globals": {
+    "__dirname": "readonly"
+  }
 }
