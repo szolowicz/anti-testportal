@@ -10,12 +10,12 @@ class Overlay {
     const url = 'https://raw.githubusercontent.com/Lumm1t/anti-testportal/master/dist/manifest.json';
 
     fetch(url)
-    .then(response => response.json())
-    .then(data => {
-      update.innerText = manifestVersion === data.version ?
-        `up to date (${manifestVersion})` :
-        `update available (${data.version})`;
-    });
+      .then(response => response.json())
+      .then(data => {
+        update.innerText = manifestVersion === data.version ?
+          `up to date (${manifestVersion})` :
+          `update available (${data.version})`;
+      });
   }
 }
 
