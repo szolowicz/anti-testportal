@@ -8,7 +8,7 @@ class Overlay {
 
     const manifestVersion = chrome.runtime.getManifest().version;
     const url =
-      'https://raw.githubusercontent.com/Lumm1t/anti-testportal/master/dist/manifest.json';
+      'https://raw.githubusercontent.com/Lumm1t/anti-testportal/master/public/manifest.json';
 
     fetch(url)
       .then((response) => response.json())
