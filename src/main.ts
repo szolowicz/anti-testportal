@@ -1,4 +1,9 @@
 import Bypass from './bypass';
+import {
+  getQuestionElement,
+  getQuestionGoogleQueryURL,
+  modifyQuestionToHref,
+} from './contentModifiers';
 
 class Main {
   protected readonly bypass = new Bypass();
@@ -26,6 +31,10 @@ class Main {
     script.innerHTML = this.bypass.getFunctions();
 
     document.body.appendChild<HTMLScriptElement>(script);
+
+    const question = getQuestionElement();
+    const googleQuery = getQuestionGoogleQueryURL(question.innerHTML);
+    modifyQuestionToHref(question, googleQuery);
   }
 }
 
