@@ -1,5 +1,6 @@
-import path from 'path';
-import copyPlugin from 'copy-webpack-plugin';
+const path = require('path');
+const copyPlugin = require("copy-webpack-plugin");
+const minifyHtmlWebpackPlugin = require('minify-html-webpack-plugin');
 
 module.exports = {
   mode: 'production',
@@ -13,7 +14,7 @@ module.exports = {
         test: /\.ts$/i,
         exclude: /(node_modules)/,
         use: {
-          loader: ['babel-loader', 'ts-loader'],
+          loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env']
           }
@@ -31,8 +32,20 @@ module.exports = {
   plugins: [
     new copyPlugin({
       patterns: [
-        { from: 'public', to: './' }
+        { from: './public', to: './' }
       ]
+    }),
+    new minifyHtmlWebpackPlugin({
+      afterBuild: true,
+      src: './public/popup',
+      dest: './dist/popup',
+      rules: {
+        collapseBooleanAttributes: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true,
+        removeComments: true,
+        minifyJS: true,
+      }
     })
   ]
 };
