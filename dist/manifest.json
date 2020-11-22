@@ -7,21 +7,20 @@
     {
       "matches": [
         "https://*.testportal.pl/*",
-        "https://*.testportal.net/*",
-        "https://teams.microsoft.com/*",
-        "https://*.teams.microsoft.com/*"
+        "https://*.testportal.net/*"
       ],
-      "js": ["main.js"],
+      "js": [
+        "main.js"
+      ],
       "all_frames": true
     }
   ],
-  "web_accessible_resources": ["popup/overlay.js"],
-  "browser_action":{
+  "web_accessible_resources": [
+    "popup/overlay.js"
+  ],
+  "browser_action": {
     "default_popup": "popup/index.html"
   },
-  "permissions": [
-    "storage"
-  ],
   "icons": {
     "16": "icons/antitestportal16.png",
     "32": "icons/antitestportal32.png",

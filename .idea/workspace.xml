@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d14a2713-d2bc-4a2e-b2f3-486211f2d1ee" name="Default Changelist" comment="docs(readme): discord link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bypass.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bypass.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,11 @@
       <workItem from="1605927280371" duration="10000" />
       <workItem from="1605948080056" duration="10000" />
       <workItem from="1605955326354" duration="2737000" />
-      <workItem from="1605960087562" duration="1945000" />
+      <workItem from="1605960087562" duration="2117000" />
+      <workItem from="1606057704904" duration="2000" />
+      <workItem from="1606063640895" duration="267000" />
+      <workItem from="1606064243375" duration="627000" />
+      <workItem from="1606064878691" duration="212000" />
     </task>
     <task id="LOCAL-00001" summary="docs(readme): discord link">
       <created>1605913199441</created>
@@ -143,22 +145,22 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="785" y="334" width="777" height="459" key="EditFileWatcherDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605924957808" />
-    <state x="475" y="225" width="1313" height="737" key="SettingsEditor" timestamp="1605957260627">
+    <state x="475" y="225" width="1313" height="737" key="SettingsEditor" timestamp="1606064885249">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="475" y="225" width="1313" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605957260627" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605960705869">
+    <state x="475" y="225" width="1313" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606064885249" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605963153008">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605960705869" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605963153008" />
     <state x="755" y="468" width="481" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605913167644">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="755" y="468" width="481" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1605913167644" />
-    <state x="680" y="162" width="631" height="783" key="find.popup" timestamp="1605960621631">
+    <state x="680" y="162" width="631" height="783" key="find.popup" timestamp="1605963070714">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="680" y="162" width="631" height="783" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1605960621631" />
+    <state x="680" y="162" width="631" height="783" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1605963070714" />
     <state x="660" y="252" key="run.anything.popup" timestamp="1605923561562">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
