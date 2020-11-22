@@ -12,9 +12,8 @@ export default class Bypass {
 
   public getFunctions (): string {
     const antiBlur = this.antiBlur.toString();
-    const bypassFunction = antiBlur.slice(antiBlur.indexOf('{') + 1, antiBlur.lastIndexOf('}'));
 
-    return bypassFunction;
+    return antiBlur.slice(antiBlur.indexOf('{') + 1, antiBlur.lastIndexOf('}'));
   }
 
   private antiBlur (): void {
