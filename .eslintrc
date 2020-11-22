@@ -6,17 +6,20 @@
   },
   "parser": "@typescript-eslint/parser",
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "prettier"
   ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
   ],
   "overrides": [
     {
       "files": [ "src/**/*.ts" ],
       "rules": {
+        "prettier/prettier": "error",
         "no-var": "error",
         "prefer-const": "warn",
         "no-unused-vars": "warn",
