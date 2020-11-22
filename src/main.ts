@@ -20,7 +20,7 @@ class Main {
   }
 
   private createScript (): void {
-    const script = document.createElement('script') as HTMLScriptElement;
+    const script: HTMLScriptElement = document.createElement('script');
 
     script.setAttribute('type', 'text/javascript');
     script.innerHTML = this.bypass.getFunctions();
