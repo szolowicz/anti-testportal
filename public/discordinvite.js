@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-chrome.runtime.onInstalled.addListener(function (object) {
+chrome.runtime.onInstalled.addListener((object) => {
   chrome.tabs.create({
     url: 'https://discord.gg/HPecVXeQrF',
     active: true
