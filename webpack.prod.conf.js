@@ -5,8 +5,8 @@ const minifyHtmlWebpackPlugin = require('minify-html-webpack-plugin');
 module.exports = {
   mode: 'production',
   entry: {
-    'main': './src/main.ts',
-    'popup/overlay': './src/popup/overlay.ts'
+    'bypass/bypass': './src/bypass/main.ts',
+    'popup/popup': './src/popup/popup.ts'
   },
   module: {
     rules: [

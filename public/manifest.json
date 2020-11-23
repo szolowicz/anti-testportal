@@ -1,7 +1,7 @@
 {
   "name": "Anti Testportal",
   "description": "Bypass for blur check on testportal.pl",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "manifest_version": 2,
   "content_scripts": [
     {
@@ -10,7 +10,7 @@
         "https://*.testportal.net/*"
       ],
       "js": [
-        "main.js"
+        "bypass/bypass.js"
       ],
       "all_frames": true
     }

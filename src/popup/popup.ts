@@ -1,4 +1,4 @@
-class Overlay {
+class Popup {
   constructor() {
     this.checkVersion();
   }
@@ -21,4 +21,4 @@ class Overlay {
   }
 }
 
-export default new Overlay();
+export default new Popup();
