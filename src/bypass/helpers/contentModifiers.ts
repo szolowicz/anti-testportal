@@ -9,7 +9,13 @@ export const getQuestionElement = (): Element => {
   );
 };
 
+const doesContainHTMLTags = (str: string): boolean => {
+  const re = RegExp(/(<([^>]+)>)/i);
+  return re.test(str);
+};
+
 export const modifyQuestionToHref = (question: Element, href: string): void => {
+  if (doesContainHTMLTags(question.innerHTML)) return;
   question.innerHTML = `<a href="${encodeURI(href)}" target="__blank">${
     question.innerHTML
   }</a>`;
