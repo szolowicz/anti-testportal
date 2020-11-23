@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d14a2713-d2bc-4a2e-b2f3-486211f2d1ee" name="Default Changelist" comment="docs(readme): discord link">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/popup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/popup/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/popup/overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/popup/popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bypass.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bypass/bypass.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bypass/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup/overlay.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/popup/popup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/discordinvite.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/discordinvite.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +107,9 @@
       <workItem from="1606081123550" duration="4000" />
       <workItem from="1606084435996" duration="325000" />
       <workItem from="1606084971830" duration="879000" />
-      <workItem from="1606086107496" duration="3626000" />
+      <workItem from="1606086107496" duration="4057000" />
+      <workItem from="1606090190211" duration="1000" />
+      <workItem from="1606090886089" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="docs(readme): discord link">
       <created>1605913199441</created>
@@ -184,10 +178,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="475" y="225" width="1313" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606085198946" />
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606088919782">
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606090119393">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1606088919782" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1606090119393" />
     <state x="755" y="468" width="481" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605913167644">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
