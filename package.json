@@ -3,8 +3,8 @@
   "description": "Bypass for blur check on testportal.pl(net)",
   "version": "4.1.1",
   "scripts": {
-    "build:dev": "webpack --config=webpack.dev.conf.js",
-    "build": "webpack --config=webpack.prod.conf.js"
+    "build:dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -45,6 +45,7 @@
     "ts-loader": "^8.0.5",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^5.4.0"
   }
 }

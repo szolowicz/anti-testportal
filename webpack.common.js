@@ -1,9 +1,7 @@
 const path = require('path');
-const copyPlugin = require("copy-webpack-plugin");
-const minifyHtmlWebpackPlugin = require('minify-html-webpack-plugin');
+const copyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  mode: 'production',
   entry: {
     'bypass/bypass': './src/bypass/main.ts',
     'popup/popup': './src/popup/popup.ts'
@@ -34,18 +32,6 @@ module.exports = {
       patterns: [
         { from: './public', to: './' }
       ]
-    }),
-    new minifyHtmlWebpackPlugin({
-      afterBuild: true,
-      src: './public/popup',
-      dest: './dist/popup',
-      rules: {
-        collapseBooleanAttributes: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true,
-        removeComments: true,
-        minifyJS: true,
-      }
     })
   ]
 };
