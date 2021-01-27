@@ -2,7 +2,7 @@ import Bypass from './bypass';
 import {
   getQuestionElement,
   getQuestionGoogleQueryURL,
-  modifyQuestionToHref
+  modifyQuestionToHref,
 } from './helpers/contentModifiers';
 
 class Main {

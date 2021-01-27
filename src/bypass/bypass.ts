@@ -19,7 +19,7 @@ export default class Bypass {
   private antiBlur(): void {
     // Remove ability to read focus value.
     Object.defineProperty(document, 'hasFocus', {
-      get: (): ReferenceError => Lumm1t
+      get: (): ReferenceError => Lumm1t,
     });
 
     // Lumm1t is not defined, ignore all errors.
