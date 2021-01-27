@@ -1,10 +1,11 @@
+/* eslint @typescript-eslint/no-var-requires: "off" */
 const path = require('path');
 const copyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
     'bypass/bypass': './src/bypass/main.ts',
-    'popup/popup': './src/popup/popup.ts'
+    'popup/popup': './src/popup/popup.ts',
   },
   module: {
     rules: [
@@ -14,24 +15,22 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      }
-    ]
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+    ],
   },
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js'
+    filename: '[name].js',
   },
   plugins: [
     new copyPlugin({
-      patterns: [
-        { from: './public', to: './' }
-      ]
-    })
-  ]
+      patterns: [{ from: './public', to: './' }],
+    }),
+  ],
 };

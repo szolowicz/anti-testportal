@@ -1,3 +1,4 @@
+/* eslint @typescript-eslint/no-var-requires: "off" */
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
 const minifyHtmlWebpackPlugin = require('minify-html-webpack-plugin');
@@ -14,8 +15,8 @@ module.exports = merge(common, {
         collapseWhitespace: true,
         removeAttributeQuotes: true,
         removeComments: true,
-        minifyJS: true
-      }
-    })
-  ]
+        minifyJS: true,
+      },
+    }),
+  ],
 });
