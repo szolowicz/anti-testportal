@@ -6,7 +6,7 @@
     "build:dev": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint:script": "eslint --ext .js,.ts --ignore-path .gitignore",
-    "lint:style": "stylelint .css --ignore-path .gitignore",
+    "lint:style": "stylelint **/*.css --ignore-path .gitignore",
     "lint": "yarn lint:script && yarn lint:style"
   },
   "repository": {
