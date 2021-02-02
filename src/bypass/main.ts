@@ -3,7 +3,7 @@ import {
   getQuestionElement,
   getQuestionGoogleQueryURL,
   modifyQuestionToHref,
-} from './helpers/contentModifiers';
+} from './helpers/content-modifiers';
 
 class Main {
   protected readonly bypass = new Bypass();
@@ -19,9 +19,8 @@ class Main {
     try {
       this.createScript();
       this.makeQuestionHref();
-    } catch (err) {
-      console.error(err);
-      return;
+    } catch (error) {
+      console.error(error);
     }
   }
 
@@ -31,12 +30,12 @@ class Main {
     script.setAttribute('type', 'text/javascript');
     script.innerHTML = this.bypass.getFunctions();
 
-    document.body.appendChild<HTMLScriptElement>(script);
+    document.body.append(script);
   }
 
   private makeQuestionHref(): void {
     const question = getQuestionElement();
-    if (!question) return;
+    if (question === undefined) return;
 
     const googleQuery = getQuestionGoogleQueryURL(question.innerHTML);
 

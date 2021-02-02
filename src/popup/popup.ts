@@ -4,19 +4,24 @@ class Popup {
   }
 
   private checkVersion(): void {
-    const update = document.getElementById('update');
+    const update = document.querySelector('#update');
+
+    if (update === null) return;
 
     const manifestVersion = chrome.runtime.getManifest().version;
     const url =
       'https://raw.githubusercontent.com/Lumm1t/anti-testportal/master/public/manifest.json';
 
+    /* eslint-disable @typescript-eslint/no-floating-promises */
     fetch(url)
-      .then((response) => response.json())
+      .then(async (response) => response.json())
       .then((data) => {
-        update.innerText =
-          manifestVersion === data.version
+        const version: string = data.version;
+
+        update.textContent =
+          manifestVersion === version
             ? `up to date (${manifestVersion})`
-            : `update available (${data.version})`;
+            : `update available (${version})`;
       });
   }
 }

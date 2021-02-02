@@ -3,14 +3,18 @@
 export const getQuestionGoogleQueryURL = (query: string): string =>
   `https://google.com/search?q=${query}`;
 
-export const getQuestionElement = (): Element => {
-  return document?.querySelector(
+export const getQuestionElement = (): Element | undefined => {
+  const question = document?.querySelector(
     '#questionForm > div > div.question-container > div.question_essence > p'
   );
+
+  if (question === null) return;
+
+  return question;
 };
 
 const doesContainHTMLTags = (str: string): boolean => {
-  const re = RegExp(/(<([^>]+)>)/i);
+  const re = /(<([^>]+)>)/i;
   return re.test(str);
 };
 
