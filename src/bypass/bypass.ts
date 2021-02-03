@@ -1,4 +1,5 @@
 declare const Lumm1t: ReferenceError;
+declare let logToServer;
 
 export default class Bypass {
   constructor() {
@@ -11,8 +12,19 @@ export default class Bypass {
 
   public getFunctions(): string {
     const antiBlur = this.antiBlur.toString();
+    const antiLog = this.antiLog.toString();
 
-    return antiBlur.slice(antiBlur.indexOf('{') + 1, antiBlur.lastIndexOf('}'));
+    const antiBlurScript = antiBlur.slice(
+      antiBlur.indexOf('{') + 1,
+      antiBlur.lastIndexOf('}')
+    );
+
+    const antiLogScript = antiLog.slice(
+      antiLog.indexOf('{') + 1,
+      antiLog.lastIndexOf('}')
+    );
+
+    return `${antiBlurScript},${antiLogScript}`;
   }
 
   private antiBlur(): void {
@@ -23,5 +35,9 @@ export default class Bypass {
 
     // Lumm1t is not defined, ignore all errors.
     window.addEventListener('error', (): boolean => true);
+  }
+
+  private antiLog(): void {
+    logToServer = (): boolean => false;
   }
 }
