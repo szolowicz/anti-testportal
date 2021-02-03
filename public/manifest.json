@@ -1,23 +1,16 @@
 {
   "name": "Anti Testportal",
   "description": "Bypass for blur check on testportal.pl(net)",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": [
-        "https://*.testportal.pl/*",
-        "https://*.testportal.net/*"
-      ],
-      "js": [
-        "bypass/bypass.js"
-      ],
+      "matches": ["https://*.testportal.pl/*", "https://*.testportal.net/*"],
+      "js": ["bypass/bypass.js"],
       "all_frames": true
     }
   ],
-  "web_accessible_resources": [
-    "popup/overlay.js"
-  ],
+  "web_accessible_resources": ["popup/overlay.js"],
   "browser_action": {
     "default_popup": "popup/index.html"
   },
