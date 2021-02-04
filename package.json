@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/Lumm1t/anti-testportal#readme",
   "devDependencies": {
-    "@babel/core": "^7.12.10",
+    "@babel/core": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
     "@babel/preset-typescript": "^7.12.13",
     "@commitlint/cli": "^11.0.0",
