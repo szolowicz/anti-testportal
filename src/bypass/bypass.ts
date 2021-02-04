@@ -24,7 +24,7 @@ export default class Bypass {
       antiLog.lastIndexOf('}')
     );
 
-    return `${antiBlurScript},${antiLogScript}`;
+    return `${antiBlurScript};${antiLogScript}`;
   }
 
   private antiBlur(): void {
