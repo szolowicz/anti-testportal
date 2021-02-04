@@ -1,7 +1,7 @@
 {
   "name": "anti-testportal",
   "description": "Bypass for blur check on testportal.pl(net)",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "scripts": {
     "build:dev": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
