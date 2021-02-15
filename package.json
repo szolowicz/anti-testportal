@@ -44,7 +44,7 @@
     "@babel/preset-typescript": "^7.12.16",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@types/chrome": "^0.0.129",
+    "@types/chrome": "^0.0.130",
     "@types/webpack-env": "^1.16.0",
     "@typescript-eslint/eslint-plugin": "4",
     "babel-loader": "^8.2.2",
