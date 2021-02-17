@@ -4589,10 +4589,10 @@ min-indent@^1.0.0:
   resolved "https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz"
   integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
 
-minify-html-webpack-plugin@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/minify-html-webpack-plugin/-/minify-html-webpack-plugin-1.1.5.tgz#4b369de122c2f636a376e9d07858625efcac0239"
-  integrity sha512-/3tChcXtBxEiMgUkk/KSdUAHdnxk/PEaAk2FYMZHOr2y/hN4VHTBDyNoHKKeLcxgrWSOJU8i+sTSbwUpRqYWIA==
+minify-html-webpack-plugin@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/minify-html-webpack-plugin/-/minify-html-webpack-plugin-1.1.6.tgz#8576e8cafcc5511d8932535240bec7cb7ad10f12"
+  integrity sha512-yTOizOh/MJmARy5q++xDwTE8k2RK5YxW7KvhJMFk/ydVVPspETQWAYYwMD3xpZ/MEBpZNu0fNIJXClPnTa84IQ==
   dependencies:
     html-minifier "^4.0.0"
 
