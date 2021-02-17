@@ -63,7 +63,7 @@
     "eslint-plugin-unicorn": "^28.0.1",
     "husky": "^5.0.9",
     "lint-staged": "^10.5.4",
-    "minify-html-webpack-plugin": "^1.1.5",
+    "minify-html-webpack-plugin": "^1.1.6",
     "prettier": "^2.2.1",
     "stylelint": "^13.10.0",
     "stylelint-config-prettier": "^8.0.2",
