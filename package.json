@@ -49,7 +49,7 @@
     "@typescript-eslint/eslint-plugin": "4",
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "copy-webpack-plugin": "^8.1.1",
+    "copy-webpack-plugin": "^9.0.0",
     "eslint": "7",
     "eslint-config-prettier": "^8.2.0",
     "eslint-config-standard-with-typescript": "^20.0.0",
