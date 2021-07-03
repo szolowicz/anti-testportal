@@ -45,7 +45,7 @@
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@types/chrome": "^0.0.145",
-    "@types/webpack-env": "^1.16.0",
+    "@types/webpack-env": "^1.16.1",
     "@typescript-eslint/eslint-plugin": "4",
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
