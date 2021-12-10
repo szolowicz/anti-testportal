@@ -1167,10 +1167,10 @@
     remark "^13.0.0"
     unist-util-find-all-after "^3.0.2"
 
-"@types/chrome@^0.0.154":
-  version "0.0.154"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.154.tgz#7992e97364f4447e961028ad07ac843d0b052c2d"
-  integrity sha512-6QmP744MeMUZUIUHED4d4L2la5dIF1e6bcrkGF4yGQTyO94ER+r++Ss165wkzA5cAGUYt8kToDa6L9xtNqVMxg==
+"@types/chrome@^0.0.169":
+  version "0.0.169"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.169.tgz#d8a38876613ee6e4c364ae5bcab853670a5e2e02"
+  integrity sha512-KbdSspfRAHKcBcbi2gIYLf9wPnoWkzu0k8Wy4J2dfmFxfwvwv+pEq35eeXc7rTxKJaF4CpI2QZAePIGIIsfQkg==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"
